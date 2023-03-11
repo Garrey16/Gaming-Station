@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background: url(https://images.unsplash.com/photo-1526234539150-ccc7209dff3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    }
+    
+</style>
+
+<body>
+    <div class="class navbar navbar-expand-lg mb-8">
+       <div class="container mt-4">
+        
+        <a class="nav-link active text-success " aria-current="page" href="#"></a>
+        <button id="Logout" class="btn bg-primary text-light">Logout</button>
+       </div> 
+    </div>
+    <div class="row mt-4">
+        <div class="col m-1 ms-5">
+            
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" srcset="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">FLAPPY BIRD</h5>
+                        <p class="card-text">Flappy Bird is mobile game developed by vietnamese video game artist and programmer Dong Nguyen.</p>
+                        <a href="./GAME/index.html" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+    
+            
+        </div>
+        <div class="col m-1 ">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1635187834534-d1fa994fcabb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="" srcset="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">BIRD KILL</h5>
+                    <p class="card-text">Archery bird hunter, however it's name contain the world of bird you can also face may challenges</p>
+                    <a href="./bird/index.html" class="btn btn-primary">Play Now</a>
+                </div>
+            </div>
+    
+        
+    </div>
+    <div class="col m-1 me-5">
+            
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80" alt="" srcset="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">BREAKOUT GAME</h5>
+                <p class="card-text">Breakout is an arcade video game developed and published by Atari, Inc and released on May 13,1976. </p>
+                <a href="./breakout/index.html" class="btn btn-primary">Play Now</a>
+            </div>
+        </div>
+    
+    
+    </div>
+    
+            </div>
+</div>
+<script src="./jquery-3.6.3.js"></script>
+<script>
+$(document).ready(function(){
+    $('#Logout').on('click',function(){
+        window.location.href='index.html';
+        return false;
+    })
+})
+    
+</script>
+</body>
+</html>
